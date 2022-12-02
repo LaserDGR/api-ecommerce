@@ -3,7 +3,6 @@ const { userRegister, getAllUsers } = require('../controllers');
 const authenticate = require ('../middlewares/auth.middleware');
 
 const router = Router();
-
 /**
  * @openapi
  * /api/v1/user/register:
